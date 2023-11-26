@@ -19,15 +19,16 @@ To use this script, you need:
 ## `.env` File Example
 Here's an example structure for the `.env` file:
 
-AZURE_DOCUMENT_TRANSLATION_ENDPOINT="https://[your-path].cognitiveservices.azure.com/"
-AZURE_DOCUMENT_TRANSLATION_KEY="[your-key]"
-AZURE_STORAGE_SOURCE_ENDPOINT="https://[storage-account-name].blob.core.windows.net/"
-AZURE_STORAGE_ACCOUNT_NAME="[your-storage-account-name]"
-AZURE_STORAGE_SOURCE_KEY="[your-key]"
-AZURE_TRANSLATE_TARGET_LANGUAGE="[target-language-code]"
-AZURE_STORAGE_SOURCE_CONTAINER_NAME="source"
-AZURE_STORAGE_TARGET_CONTAINER_NAME="target"
+AZURE_DOCUMENT_TRANSLATION_ENDPOINT="https://[your-path].cognitiveservices.azure.com/"  
+AZURE_DOCUMENT_TRANSLATION_KEY="[your-key]"  
+AZURE_STORAGE_SOURCE_ENDPOINT="https://[storage-account-name].blob.core.windows.net/"  
+AZURE_STORAGE_ACCOUNT_NAME="[your-storage-account-name]"  
+AZURE_STORAGE_SOURCE_KEY="[your-key]"  
+AZURE_TRANSLATE_TARGET_LANGUAGE="[target-language-code]"  
+AZURE_STORAGE_SOURCE_CONTAINER_NAME="source"  
+AZURE_STORAGE_TARGET_CONTAINER_NAME="target"  
 AZURE_DOCUMENT_NAME="[file-name-with-extension]"
+
 
 
 Replace the placeholders with your actual Azure details and desired settings.
